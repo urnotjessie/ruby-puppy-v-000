@@ -8,6 +8,7 @@ class Dog
         @name = name
         @@all << self.name
     end
+    binding.pry
 
     def self.clear_all
         @@all = []
