@@ -19,5 +19,4 @@ class Dog
             puts name
         end
     end
-    binding.pry
 end
